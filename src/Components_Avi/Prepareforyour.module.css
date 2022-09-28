@@ -1,0 +1,66 @@
+.Prepare_Avi {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    display: flex;
+  height: 500px;
+  /* border: 1px solid teal; */
+  }
+  .Prepare_first{
+    margin-left: 50px;
+    width: 20%;
+    margin-top: 100px;
+    text-align: left;
+  }
+  .Prepare_second{
+    /* border: 1px solid red;  */
+    padding: 10px;
+    width: 48%;
+    border-radius: 20px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .Prepare_third{
+    width: 30%;
+    /* border: 1px solid red;  */
+    margin-left: 20px;
+    border-radius: 20px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .Ambitionbox{
+    background-color: #f2f4ff;
+    color:#9679ce;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+  }
+  .Prepare_h2{
+    font-size: 29px;
+    font-weight: 700;
+    color: #1b2437;
+  }
+  .interview_h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  .interview_box{
+    display: flex;
+  }
+  .Accenture_Avi{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .logos_Avi{
+    height: 50px;
+    margin-top: 15px;
+  }
+  .box1_Avi{
+    margin-left: 10px;
+    height: 90px;
+    width: 300px;
+     border-radius: 20px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  

@@ -1,19 +1,17 @@
 import React from 'react'
-import { TopCompanyData } from "../Data/TopCompanyData"
-import CardsCarousel from './CardsCarousel';
+import { FeaturedCompanyData } from "../Data/FeaturedCompanyData"
+import MultiCardsCarousel from './MultiCardsCarousel';
 import style from "styled-components"
-// import "../Resources/Mnc"
-
-const TopCompanies = () => {
-
+const FeaturedCompanies = () => {
     return (
-        <TopCompany>
-            <h1>Top Companies Hiring Now</h1>
-            <CardsCarousel CompanyData={TopCompanyData}/>
-        </TopCompany>
-    )
+        <FeaturedCompany>
+            <h1>Featured companies actively hiring</h1>
+            <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData}/>
+        </FeaturedCompany>
+    );
 }
-const TopCompany=style.div`
+const FeaturedCompany=style.div`
+    margin-top:50px;
     width:100%;
     h1{
         font-size: 27px;
@@ -35,5 +33,4 @@ const TopCompany=style.div`
         }
     }
 `;
-
-export default TopCompanies
+export default FeaturedCompanies

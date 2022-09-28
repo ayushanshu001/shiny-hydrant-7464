@@ -31,7 +31,7 @@ const CardsCarousel = ({CompanyData}) => {
                         <p className="description">{ele.description}</p>
                         <div className="images">
                             {ele.images.map((image, index) => (
-                                <div className='imageContainer'><img src={image} alt="" />
+                                <div key={index} className='imageContainer'><img src={image} alt="" />
                                 </div>
                             ))}
                         </div>

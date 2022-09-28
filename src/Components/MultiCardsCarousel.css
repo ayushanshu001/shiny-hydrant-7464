@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:24px 12px;
+    padding:20px 12px;
     box-shadow:rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     border-radius: 20px 5px;
 }
@@ -40,10 +40,11 @@
 
 .featureInfo{
     display:flex;
-    border-radius: 5px;
+    border-radius: 15px 5px;
     flex-direction: column;
     align-items:center;
-    width:90%;
+    justify-content: center;
+    width:92%;
     height:100px;
     background-color: #F1F5FF;
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
@@ -55,11 +56,11 @@
     font-weight: 500;
     text-transform: capitalize;
     font-family: Inter;
-    margin:20px auto 0px auto;
+    margin-bottom: 0px;
 }
 
 .featureRatingContainer{
-    margin-top: 0px;
+    margin-top: -10px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -82,8 +83,9 @@
 }
 
 .featureDescription{
+    margin-top: 0px;
     -webkit-line-clamp: 2;
-    height:70px;
+    height:52px;
     text-overflow: ellipsis;
     overflow: hidden;
     color: #8292B4;

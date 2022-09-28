@@ -7,21 +7,21 @@
 }
 
 .company {
-    padding: 8px;
+    padding: 10px;
 }
 
 .singleCard {
-    padding:10px;
+    text-align: left;
+    padding:5px 20px 15px 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     border-radius: 20px 5px;
 }
 
 .images {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
-    padding:5px;
+    gap: 5px;
 }
 
 .imageContainer {
@@ -35,10 +35,16 @@ img{
     width:40px;
 }
 .companyName{
-    margin:auto;
     color: #1B2437;
     max-width: 175px;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 15px;
     font-weight: 600;
+}
+.description{
+    margin-top: -15px;
+    color: #8292B4;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
 }

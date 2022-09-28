@@ -6,11 +6,12 @@ const FeaturedCompanies = () => {
     return (
         <FeaturedCompany>
             <h1>Featured companies actively hiring</h1>
-            <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData}/>
+            <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData} />
+            <button className="viewAll">View all companies</button>
         </FeaturedCompany>
     );
 }
-const FeaturedCompany=style.div`
+const FeaturedCompany = style.div`
     margin-top:50px;
     width:100%;
     h1{
@@ -20,6 +21,17 @@ const FeaturedCompany=style.div`
         font-weight: bold;
         color: #1B2437;
     }
+    .viewAll{
+        margin-top:25px;
+        border: 1px solid #88ADFF;
+        border-radius: 100px;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 12px 20px;
+        color: #457EFF;
+        line-height: 24px;
+    }
+    
 
     @media only screen and (max-width: 600px) {
         h1{

@@ -4,7 +4,7 @@ import "./MultiGridCarousel.css";
 import { PopularRolesData } from '../Data/PopularRolesData';
 import { HiOutlineChevronRight } from "react-icons/hi"
 
-const Gallery = () => {
+const DiscoverJob = () => {
   PopularRolesData.map((items) => {
     console.log(items.ele)
   })
@@ -33,4 +33,4 @@ const Gallery = () => {
     </div>
   )
 }
-export default Gallery
+export default DiscoverJob

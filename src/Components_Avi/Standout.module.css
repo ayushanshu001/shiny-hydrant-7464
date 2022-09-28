@@ -1,0 +1,78 @@
+.stand_Avi {
+  margin: 50px;
+  /* border: 2px solid red; */
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 400px;
+  border-radius: 20px 0px;
+  background-color: #f2fcff;
+  display: flex;
+}
+.stand_Avi1 {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.one_Avi {
+  margin-left: 80px;
+  width: 50%;
+  margin-top: 50px;
+  /* border: 1px solid rebeccapurple; */
+}
+.qr_Avi {
+  background-color: white;
+  border: 1px solid #50c7eb;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 180px;
+  margin-left: 30px;
+}
+.span_Avi {
+  
+  margin-left: 50px;
+  padding: 14px 25px;
+  font-size: 0.9em; 
+  text-transform: uppercase;
+ font-weight: 300;
+  color: #fff;
+  background-color: #0000fe;
+  border-radius: 20px;
+}
+  
+.Inbtn_Avi{
+  padding-right                     : 10px; 
+  background-color                  : #fff;
+  -webkit-border-top-right-radius   : 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topright       : 20px;
+  -moz-border-radius-bottomright    : 20px;
+  border-top-right-radius           : 20px;
+  border-bottom-right-radius        : 20px;
+  border                            : none;
+  cursor                            : pointer; 
+  cursor                            : hand;
+}
+.Input_Avi{
+  flex                             : 1;
+     padding                          : 20px 10px;
+     font-size                        : 1.1em;
+      -webkit-border-top-left-radius   : 25px;
+      -webkit-border-bottom-left-radius: 25px;
+      -moz-border-radius-topleft       : 25px;
+      -moz-border-radius-bottomleft    : 25px;
+      border-top-left-radius           : 25px;
+      border-bottom-left-radius        : 25px;
+     box-shadow                       : none;
+     border                           : none;
+     /* box-shadow                       : 2px 4px 6px rgba(0, 0, 0, 0.19); */
+}
+
+.Inwrap_Avi{
+  display     : flex; 
+  width       : 250px;  
+  /* margin-top  : 8%; */
+  /* margin-left : auto; */
+  /* margin-right: auto; */
+
+}

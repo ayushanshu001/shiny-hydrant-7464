@@ -82,7 +82,7 @@ export class Register extends PureComponent {
                            <input type={"checkbox"} />
                         {/* </div> */}
                         {/* <div> */}
-                            <p>Send me important update in whatsapp</p>
+                            <p>Send me important update in whatsapp mai nahi karta</p>
                         {/* </div> */}
                         {/* <div> */}
                             <img className='checkboximage_ji' src='https://static.naukimg.com/s/7/104/assets/images/whatsappicon.0011d8c1.png'/>

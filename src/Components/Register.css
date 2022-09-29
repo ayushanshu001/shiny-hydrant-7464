@@ -1,0 +1,116 @@
+.container_ji{
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+.sidebar_ji{
+    border: 1px solid black;
+    margin: 5% 0% 0% 5%;
+    height: auto;
+    width: 20%;
+    position: fixed;
+}
+.sliderimage_ji{
+    height: 20%;
+    width: 40%;
+
+}
+.rightbar_ji{
+    border: 1px solid black;
+    margin-left: 30%;
+    height: auto;
+    width: 60%;
+    ;
+}
+.headding1_ji{
+    font-size: 19px;
+}
+.ul1_ji{
+    margin: 1% 10% 1% 1%;
+}
+
+.text1_ji{
+    text-align: left;
+    color: #445578;
+    font-size: 13px;
+}
+
+.rightbar_inner_div_ji{
+    text-align: left;
+    margin: 0% 0% 0% 10%;
+}
+
+.headding2_ji{
+    font-size: 32px;
+}
+
+.inputdiv_ji{
+    text-align: left;
+    margin-top: 2%;
+   
+}
+.span_ji{
+    color: #445578;
+    font-size: 13px;
+    font-weight: 600;
+   
+}
+.input_ji{
+margin-top: 0.5%;
+/* height: 25px; */
+width: 80%;
+padding: 1.5% 1% 1.5% 1%;
+font-size: 15px;
+border:1px solid rgb(211, 225, 234);
+border-radius: 5px;
+}
+._at{
+    color:#445578;
+    font-size: 13px;
+}
+
+.card_ji{
+display: flex;
+/* border: 1px solid rgb(211, 225, 234) ; */
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+margin-bottom: -20px;
+}
+.button_ji{
+    border:none;
+    padding: 15% 73% 15% 73%;
+    color: white;
+    font-size: 80%;
+    font-weight: 600;
+    background-color: #FF7555;
+    border-radius: 20px;
+
+}
+.button-div_ji{
+    color:#445578;
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-left: 80px;
+    /* border: 1px solid #FF7555; */
+}
+.checkbox_ji{
+display: flex;
+border: 1px solid red;
+margin-top: 0%;
+}
+.checkbox_ji>p{
+margin-top: 0%;
+color:#445578;
+font-size: 13px;
+}
+.checkboxinput_ji{
+margin-top: -1.5%;
+border: 1px solid red;
+}
+.checkboximage_ji{
+height: 20px;
+margin-top: 0%;
+}
+

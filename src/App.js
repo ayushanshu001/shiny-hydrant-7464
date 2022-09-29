@@ -1,13 +1,17 @@
-
 import './App.css';
-import Nav from './Component/Nav';
+import Footerr from './Component/Footerr';
 import Navbar from './Component/Navbar';
+// import style from './Styles/navbar.module.css'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <Nav/> */}
+      <br/>
+      <br/>
+      <br/>
+      {/* <Footer/> */}
+      <Footerr/>
     </div>
   );
 }

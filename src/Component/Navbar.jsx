@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
-import style from '../Styles/navbar.module.css'
+import style from '../Styles/Navbar.module.css'
+import Burger from './Burger'
 
 
 
 const Navbar = () => {
   return (
-<div >
+<div style={{display:'flex'}} >
+{/* <Burger/> */}
         <div className={style.navbarAyush} >
+        
             <div className={style.logoAyush}>
                 <img width='150px' src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"/>
             </div>
@@ -27,6 +30,7 @@ const Navbar = () => {
                 <option>For employers</option>
                 </select>
             </div>
+            
         </div>
         
     </div>

@@ -7,7 +7,7 @@ export class Register extends PureComponent {
       <div>
         <div className='container_ji'>
             <div className='sidebar_ji'>
-                <img src='https://static.naukimg.com/s/7/104/assets/images/green-boy.c8b59289.svg'/>
+                <img className='sliderimage_ji' src='https://static.naukimg.com/s/7/104/assets/images/green-boy.c8b59289.svg'/>
                 <div>
                 <h2 className='headding1_ji'>On registering you can</h2>
                 <ul className='ul1_ji'>
@@ -75,6 +75,23 @@ export class Register extends PureComponent {
                         <br />
                         <span className="_at">Recruiters give first preference to candidates who have a resume</span>
                     </div>
+
+
+                    <div className='checkbox_ji'>
+                        {/* <div> */}
+                           <input type={"checkbox"} />
+                        {/* </div> */}
+                        {/* <div> */}
+                            <p>Send me important update in whatsapp</p>
+                        {/* </div> */}
+                        {/* <div> */}
+                            <img className='checkboximage_ji' src='https://static.naukimg.com/s/7/104/assets/images/whatsappicon.0011d8c1.png'/>
+                        {/* </div> */}
+                        {/* <div> */}
+                            <p>Whatsapp</p>
+                        {/* </div> */}
+                    </div>
+
 
 
                 </div>

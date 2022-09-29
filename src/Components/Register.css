@@ -11,6 +11,11 @@
     width: 20%;
     position: fixed;
 }
+.sliderimage_ji{
+    height: 20%;
+    width: 40%;
+
+}
 .rightbar_ji{
     border: 1px solid black;
     margin-left: 30%;
@@ -76,7 +81,7 @@ margin-bottom: -20px;
     border:none;
     padding: 15% 73% 15% 73%;
     color: white;
-    font-size: 13px;
+    font-size: 80%;
     font-weight: 600;
     background-color: #FF7555;
     border-radius: 20px;
@@ -90,5 +95,19 @@ margin-bottom: -20px;
     margin-left: 80px;
     /* border: 1px solid #FF7555; */
 }
-
+.checkbox_ji{
+display: flex;
+border: 1px solid red;
+margin-top: 0%;
+}
+.checkbox_ji>p{
+margin-top: 0%;
+}
+.checkbox_ji>input{
+margin-top: 0%;
+}
+.checkboximage_ji{
+height: 20px;
+margin-top: 0%;
+}
 

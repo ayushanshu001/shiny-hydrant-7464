@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import style from '../Styles/Navbar.module.css'
-import Burger from './Burger'
 
 
 
 const Navbar = () => {
   return (
 <div style={{display:'flex'}} >
-{/* <Burger/> */}
         <div className={style.navbarAyush} >
         
             <div className={style.logoAyush}>

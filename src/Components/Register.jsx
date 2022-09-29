@@ -79,7 +79,7 @@ export class Register extends PureComponent {
 
                     <div className='checkbox_ji'>
                         {/* <div> */}
-                           <input type={"checkbox"} />
+                           <input className='checkboxinput_ji' type={"checkbox"} />
                         {/* </div> */}
                         {/* <div> */}
                             <p>Send me important update in whatsapp mai nahi karta</p>

@@ -102,9 +102,12 @@ margin-top: 0%;
 }
 .checkbox_ji>p{
 margin-top: 0%;
+color:#445578;
+font-size: 13px;
 }
-.checkbox_ji>input{
-margin-top: 0%;
+.checkboxinput_ji{
+margin-top: -1.5%;
+border: 1px solid red;
 }
 .checkboximage_ji{
 height: 20px;

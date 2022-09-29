@@ -1,15 +1,9 @@
-import './App.css';
-import Footerr from './Component/Footerr';
-import Navbar from './Component/Navbar';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <br/>
-      <br/>
-      <br/>
-      <Footerr/>
+      <Home/>
     </div>
   );
 }

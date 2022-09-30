@@ -1,5 +1,5 @@
 .navbarAyush{
-    position: fixed;
+    /* position: fixed; */
     height:65px;
     width:100%;
    padding-left: 50px;
@@ -52,14 +52,14 @@
     font-size: medium;
     border-color: dodgerblue;
     border:1px solid dodgerblue;
-   padding-bottom: 3px;
+   /* padding-bottom: 3px; */
     
 }
 .loginButton2Ayush{
     cursor: pointer;
     border-radius: 20px;
     width:100px;
-    height:35px;
+    height:40px;
     border-color:transparent;
     color: white;
     background-color: tomato;

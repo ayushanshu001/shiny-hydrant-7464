@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.css'
 import Register from './Components/Register';
 import './App.css' 
 import Home from './Pages/Home'
@@ -15,9 +15,7 @@ function App() {
       <Home/>
      <Register/>
      <Footerr/>
-
-    </div>
-  );
+   </div>
+  )
 }
-
 export default App;

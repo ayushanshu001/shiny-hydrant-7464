@@ -15,8 +15,12 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "styled-components": "^5.3.6",
     "swiper": "^8.4.2",
+=======
+
+>>>>>>> 3d4f43ca24d8746b102b6f8ce931dfaefdef9feb
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-import Styles from "./Prepareforyour.module.css";
+import Styles from "../styles_Avi/Prepareforyour.module.css";
 export default function Prepareforyour() {
   return (
     <div className={Styles.Prepare_Avi}>

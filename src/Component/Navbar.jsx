@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={style.navbarAyush} >
         
             <div className={style.logoAyush}>
-                <img width='150px' src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"/>
+                <img style={{width:'150px',height:'25px'}} src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"/>
             </div>
             <div className={style.tagAyush}>
                 <p className={style.tagHoverAyush}>Jobs</p>

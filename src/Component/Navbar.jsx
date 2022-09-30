@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import style from '../Styles/Navbar.module.css'
+import React from 'react'
+import style from '../Styles/navbar.module.css'
 
 
 
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={style.navbarAyush} >
         
             <div className={style.logoAyush}>
-                <img style={{width:'150px',height:'25px'}} src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"/>
+                <img style={{width:'150px',height:'25px'}} src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt=""/>
             </div>
             <div className={style.tagAyush}>
                 <p className={style.tagHoverAyush}>Jobs</p>

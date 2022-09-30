@@ -1,15 +1,9 @@
 
 import logo from './logo.svg';
 import './App.css';
-import Register from './Components/Register';
-import './App.css' 
-
 function App() {
   return (
     <div className="App">
-     <Register/>
-      <Home/>
-
     </div>
   );
 }

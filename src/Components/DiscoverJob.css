@@ -10,7 +10,7 @@
     display: grid;
     gap: 10px;
     justify-content: left;
-    grid-template-columns: repeat(auto-fit, minmax(32%, max-content))
+    grid-template-columns: repeat(auto-fit, minmax(210px, max-content))
 }
 
 .discoverSingleCard {
@@ -50,4 +50,17 @@
 }
 .discoverRolesJob+p{
     font-size:14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:24px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size:20px;
+    }
 }

@@ -1,0 +1,66 @@
+.discoverMainContainer {
+    width: 100%;
+    height:auto;
+    margin: auto;
+}
+
+.discoverCards {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    justify-content: left;
+    grid-template-columns: repeat(auto-fit, minmax(210px, max-content))
+}
+
+.discoverSingleCard {
+    padding: 2px 20px;
+    font-style: normal;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* border: 2px solid green; */
+    border-radius: 16px 6px;
+    height: 80px;
+    text-align: left;
+}
+
+.discoverRoles {
+    width: 100%;
+}
+
+.discoverRolesName {
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1b2437;
+}
+
+.discoverRoles>div{
+    display: flex;
+    align-items: flex-start;
+    gap:5px;
+    margin-top: -30px;
+    color: #8292b4;
+}
+
+.discoverRolesJob {
+    font-weight: normal;   
+    font-size: 13px;
+    line-height: 20px;
+}
+.discoverRolesJob+p{
+    font-size:14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:24px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size:20px;
+    }
+}

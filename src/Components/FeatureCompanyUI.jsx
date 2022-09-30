@@ -2,7 +2,7 @@ import React from 'react'
 import "../Styles/FeaturesCompanyUI.css"
 import { AiFillStar } from 'react-icons/ai';
 const FeatureCompanyUI = ({ companies }) => {
-    console.log(companies)
+    // console.log(companies)
     return (
         <div>
             <div className="companiesMainContainer">

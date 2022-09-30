@@ -7,7 +7,6 @@ import styled from 'styled-components'
 
 const FeaturedCompaniesPage = () => {
   const {data}=useSelector(store=>(store))
-  console.log(data)
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getData())

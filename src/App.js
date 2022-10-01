@@ -19,12 +19,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <AllRout/>
-<<<<<<< HEAD
-      <Footerr/>
-=======
-      <SingleCompanyPage/>
-      <AllRout/>
->>>>>>> e283f82efa4d353715988e2dd8356150588e3d89
     </div >
   )
 }

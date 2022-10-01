@@ -6,7 +6,7 @@ import { HiOutlineChevronRight } from "react-icons/hi"
 
 const DiscoverJob = () => {
   PopularRolesData.map((items) => {
-    console.log(items.ele)
+    // console.log(items.ele)
   })
   return (
     <div className="discoverMainContainer">

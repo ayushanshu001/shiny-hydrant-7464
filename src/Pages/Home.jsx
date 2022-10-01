@@ -7,10 +7,10 @@ import TopCompanies from '../Components/TopCompanies'
 const Home = () => {
   return (
     <div>
-        {/* <TopCompanies/>
+        <TopCompanies/>
         <FeaturedCompanies/>
-        <Roles/> */}
-        Home
+        <Roles/>
+        
     </div>
   )
 }

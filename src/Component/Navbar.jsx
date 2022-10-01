@@ -1,10 +1,20 @@
 import React, { useState } from 'react'
-import style from '../Styles/Navbar.module.css'
+import style from '../Styles/navbar.module.css'
 import {Link} from 'react-router-dom'
+import { auth, db, logout } from "../Firebase/Firebase";
+import { query, collection, getDocs, where } from "firebase/firestore";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useNavigate } from "react-router-dom";
+import LoginAuth from './LoginAuth';
+import LogoutAuth from './LogoutAuth';
 
 
 
 const Navbar = () => {
+
+    const [user, loading, error] = useAuthState(auth);
+    //  console.log(user,loading,error)
+
   return (
 <div style={{display:'flex'}} >
         <div className={style.navbarAyush} >
@@ -19,8 +29,7 @@ const Navbar = () => {
                 <p className={style.tagHoverAyush}>Services</p>
             </div>
             <div className={style.navbuttonAyush}>
-                <button className={style.loginButtonAyush}><Link to='/login' style={{textDecoration:'none'}}>Login</Link></button>
-                <button className={style.loginButton2Ayush}><Link to='/register' style={{textDecoration:'none'}}>Register</Link></button>
+               {user===null?<LoginAuth/>:<LogoutAuth />}
             </div>
             <div className={style.lineAyush}>
                 <p className={style.navParaAyush}>|</p>

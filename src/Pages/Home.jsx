@@ -13,17 +13,20 @@ const Home = () => {
         return (
                 <div>
                         <div className='homedivAyush'>
-                                <DreamJob />
+                              <DreamJob />
                         </div>
                         <div className='topAyush'>
-                                <TopCompanies />
+                              <TopCompanies />
                         </div>
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
-                        <div>
-                          <Accelerateyourjob/>
-                        </div>
                         <Roles />
+                        <div>
+                               <Accelerateyourjob/>
+                        </div>
+                        {/* <div>
+                          <Growyour/>
+                        </div> */}
 
                 </div >
         )

@@ -1,3 +1,12 @@
+
+
+import './App.css';
+import Prepareforyour from'./Components_Avi/Prepareforyour'
+import Accelerateyourjob   from './Components_Avi/Accelerateyourjob';
+import Growyour from './Components_Avi/Growyour';
+import Standout from './Components_Avi/Standout';
+import Comp_Side from './Components_Avi/Comp_Side';
+
 import React from "react"
 import './App.css'
 import './App.css'
@@ -14,18 +23,18 @@ import './App.css'
 import './App.css'
 import SingleCompanyPage from "./Pages/SingleCompanyPage";
 
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <AllRout/>
-<<<<<<< HEAD
-      <Footerr/>
-=======
-      <SingleCompanyPage/>
-      <AllRout/>
->>>>>>> e283f82efa4d353715988e2dd8356150588e3d89
     </div >
   )
+
+      
+    </div>
+  );
+
 }
 export default App;

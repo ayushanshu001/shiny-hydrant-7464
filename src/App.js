@@ -1,6 +1,8 @@
+import React from "react"
 import './App.css'
 import './App.css' 
 import Navbar from './Components/Navbar';
+import SingleCompany from "./Components/SingleCompany";
 import AllRout from './Routing/AllRout';
 
 

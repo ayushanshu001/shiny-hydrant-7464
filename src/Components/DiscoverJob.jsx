@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-grid-carousel';
-import "./DiscoverJob.css";
+import "../Styles/DiscoverJob.css";
 import { PopularRolesData } from '../Data/PopularRolesData';
 import { HiOutlineChevronRight } from "react-icons/hi"
 

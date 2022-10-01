@@ -3,12 +3,10 @@ import FeaturedCompanies from '../Components/FeaturedCompanies'
 import Roles from '../Components/Roles'
 import TopCompanies from '../Components/TopCompanies'
 import FeaturedCompaniesPage from './FeaturedCompaniesPage'
-import SingleCompanyPage from './SingleCompanyPage'
 import DreamJob from '../Components/DreamJob'
-import FeaturedCompanies from '../Components/FeaturedCompanies'
-import Roles from '../Components/Roles'
-import TopCompanies from '../Components/TopCompanies'
 import '../Styles/Home.css'
+import SingleCompanyPage from './SingleCompanyPage'
+
 
 
 const Home = () => {
@@ -22,6 +20,7 @@ const Home = () => {
                         </div>
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
+                        <SingleCompanyPage/>
                         <Roles />
 
                 </div >

@@ -8,8 +8,7 @@ import AllRout from "./Routing/AllRout";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <AllRout/>
+      
     </div >
   )
 }

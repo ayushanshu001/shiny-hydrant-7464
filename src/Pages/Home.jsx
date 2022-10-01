@@ -10,6 +10,7 @@ import Roles from '../Components/Roles'
 import TopCompanies from '../Components/TopCompanies'
 import '../Styles/Home.css'
 
+
 const Home = () => {
         return (
                 <div>

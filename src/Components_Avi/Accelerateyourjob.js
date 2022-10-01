@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Styles from "./Accelerateyourjob.module.css";
 import Styles from "../styles_Avi/Accelerateyourjob.module.css";
 
 export default function Accelerateyourjob() {

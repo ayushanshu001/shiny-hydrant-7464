@@ -14,7 +14,7 @@ const Navbar = () => {
                     </div >
                 </Link>    
                     <div className={style.tagAyush}>
-                        <p className={style.tagHoverAyush}>Jobs</p>
+                        <Link to='/' style={{ textDecoration: 'none' }}><p className={style.tagHoverAyush}>Jobs</p></Link>
                         <p className={style.tagHoverAyush}><Link to='/companies' style={{ textDecoration: 'none' }}>Companies</Link></p>
                         <p className={style.tagHoverAyush}>Services</p>
                     </div>

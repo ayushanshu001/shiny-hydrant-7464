@@ -30,7 +30,7 @@ const MultiCardsCarousel = ({ FeaturedCompany }) => {
             className="mySwiper"
         >
             {FeaturedCompany.map((ele, index) => (
-                <Link to={`/singlecompany/${ele.title}`}>
+                <Link to={`/companies/${ele.id}`} key={ele.id}>
                 <SwiperSlide key={index}>
                     <div className="FeatureSingleCard">
                         <div className="featureImage"><img src={ele.image} alt="logo" /></div>

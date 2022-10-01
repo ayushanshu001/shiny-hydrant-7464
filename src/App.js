@@ -9,12 +9,7 @@ import Footerr from './Component/Footerr';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <br/>
-      <br/>
-      <Home/>
-     <Register/>
-     <Footerr/>
+      
    </div>
   )
 }

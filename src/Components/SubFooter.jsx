@@ -16,10 +16,12 @@ All rights reserved © 2022 Info Edge (India) Ltd.</p>
             <p style={{paddingLeft:'30px',fontSize:'medium'}}>Our businesses</p>
         </div>
         <div style={{paddingLeft:'20px'}}>
+            <marquee>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png'/>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/shiksha.png'/>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png'/>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png'/>
+            </marquee>
         </div>
     </div>
   )

@@ -31,6 +31,7 @@ export const TopCompanyData = [
             "https://img.naukimg.com/logo_images/groups/v1/6186549.gif",
             "https://img.naukimg.com/logo_images/groups/v1/4611791.gif"
         ]
+        
     },
     {
         "name": "Unicorns",

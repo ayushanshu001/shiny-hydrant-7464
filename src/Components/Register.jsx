@@ -1,3 +1,6 @@
+
+import "../Styles/Register.css"
+
 import React, {  useEffect, useState } from 'react'
 import {auth,registerWithEmailAndPassword,signInWithGoogle,} from '../Firebase/Firebase'
 // import { handleRegister } from '../Firebase/User'
@@ -35,6 +38,7 @@ const RegisterPage=()=>{
 
 
      
+
 
     return (
       <div>

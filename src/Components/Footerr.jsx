@@ -10,14 +10,14 @@ const Footerr = () => {
             <div className={style.MainAyush} >
                 <div >
                     <div>
-                        <img style={{padding:'100px 0px 0px 150px',width:'170px',height:'30px'}} src='https://static.naukimg.com/s/4/100/i/naukri_Logo.png'/>
+                        <img style={{padding:'100px 0px 0px 150px',width:'170px',height:'30px'}} src='https://static.naukimg.com/s/4/100/i/naukri_Logo.png' alt="Logo"/>
                     </div>
                     <div></div>
                     <div className={style.imgAyush}>
-                        <a href='https://www.facebook.com/Naukri/'><img className={style.imgReduce} src='https://i.ibb.co/LSLXHws/facebook.png'/></a>
-                        <a href='https://www.instagram.com/naukridotcom/?hl=en'><img className={style.imgReduce} src='https://i.ibb.co/8KhcSJr/instagram.png'/></a>
-                        <a href='https://twitter.com/Naukri?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'><img className={style.imgReduce} src='https://i.ibb.co/VNMQT0m/twitter-sign.png'/></a>
-                        <a href='https://www.linkedin.com/company/naukri.com/?originalSubdomain=in'><img className={style.imgReduce} src='https://i.ibb.co/BTDGYCZ/linkedin-logo.png'/></a>
+                        <a href='https://www.facebook.com/Naukri/'><img className={style.imgReduce} src='https://i.ibb.co/LSLXHws/facebook.png' alt="facebook"/></a>
+                        <a href='https://www.instagram.com/naukridotcom/?hl=en'><img className={style.imgReduce} src='https://i.ibb.co/8KhcSJr/instagram.png' alt="twitter"/></a>
+                        <a href='https://twitter.com/Naukri?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'><img className={style.imgReduce} src='https://i.ibb.co/VNMQT0m/twitter-sign.png' alt="twitter"/></a>
+                        <a href='https://www.linkedin.com/company/naukri.com/?originalSubdomain=in'><img className={style.imgReduce} src='https://i.ibb.co/BTDGYCZ/linkedin-logo.png' alt="twitter"/></a>
                     </div>
                 </div>
                 <div style={{display:'flex',gap:'80px',paddingLeft:'70px',paddingTop:'87px'}}>
@@ -51,10 +51,10 @@ const Footerr = () => {
                     </div>
                     <div style={{display:'flex'}}>
                         <div>
-                            <img src='https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png' style={{width:'100px',paddingLeft:'40px'}}/>
+                            <img src='https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png' alt ="ios" style={{width:'100px',paddingLeft:'40px'}}/>
                         </div>
                         <div>
-                            <img src='https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png' style={{width:'100px'}}/>
+                            <img src='https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png' alt="android" style={{width:'100px'}}/>
                         </div>
                     </div>
                 </div>

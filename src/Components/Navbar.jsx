@@ -1,7 +1,6 @@
-import React from 'react'
+
 import style from '../Styles/navbar.module.css'
-import React, { useState } from 'react'
-import style from '../Styles/Navbar.module.css'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 
@@ -16,6 +15,7 @@ const Navbar = () => {
                     <div className={style.logoAyush}>
                         <img style={{ width: '150px', height: '25px' }} src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="" />
                     </div >
+                </Link>    
                     <div className={style.tagAyush}>
                         <p className={style.tagHoverAyush}>Jobs</p>
                         <p className={style.tagHoverAyush}><Link to='/companies' style={{ textDecoration: 'none' }}>Companies</Link></p>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <option>For employers</option>
                         </select>
                     </div>
-                </Link>
+                
 
             </div >
 

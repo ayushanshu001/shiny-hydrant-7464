@@ -1,10 +1,10 @@
-import React from "react";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
 import "../Styles/MultiCardsCarousel.css";
+
 
 import { AiFillStar } from 'react-icons/ai';
 import { Pagination, Navigation } from "swiper";
@@ -13,6 +13,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
 import "../Styles/MultiCardsCarousel.css";
+import {Link} from 'react-router-dom'
 
 const MultiCardsCarousel = ({ FeaturedCompany }) => {
     return (
@@ -30,6 +31,7 @@ const MultiCardsCarousel = ({ FeaturedCompany }) => {
             className="mySwiper"
         >
             {FeaturedCompany.map((ele, index) => (
+                <Link to={`/singlecompany/${ele.title}`}>
                 <SwiperSlide key={index}>
                     <div className="FeatureSingleCard">
                         <div className="featureImage"><img src={ele.image} alt="logo" /></div>
@@ -46,7 +48,7 @@ const MultiCardsCarousel = ({ FeaturedCompany }) => {
                         </div>
                         <button>View Jobs</button>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide></Link>
             ))}
         </Swiper>
     )

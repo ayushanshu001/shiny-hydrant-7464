@@ -1,7 +1,7 @@
 .navbarAyush{
-    position: fixed;
+    /* position: fixed;
      top: 0; 
-     z-index: 2000; 
+     z-index: 2000;  */
     height:65px;
     width:100%;
    padding-left: 50px;
@@ -19,7 +19,6 @@
     padding-left: 100px;
 }
 .tagAyush{
-    position: static;
     cursor: pointer;
     display:flex;
     padding-left: 100px;

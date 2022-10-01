@@ -1,0 +1,110 @@
+.navbarAyush{
+    /* position: fixed;
+     top: 0; 
+     z-index: 2000;  */
+    height:65px;
+    width:100%;
+   padding-left: 50px;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+
+.logoAyush{
+    /* position: relative; */
+    cursor: pointer;
+    padding-top: 19px;
+    text-align: left;
+    padding-left: 100px;
+}
+.tagAyush{
+    cursor: pointer;
+    display:flex;
+    padding-left: 100px;
+    gap:35px;
+    color:#445578;
+    font-size: medium;
+    font-weight:600;
+    padding-top: 5px;
+}
+.tagHoverAyush:hover{
+    /* position: relative; */
+    /* border-bottom: 5px solid tomato; */
+    border-bottom: 5px solid tomato;
+    color: black;
+
+}
+.navbuttonAyush{
+    padding-top: 14px;
+    padding-left: 375px;
+    display:flex;
+    gap:8px;
+
+    /* padding-bottom: 5px; */
+}
+.loginButtonAyush{
+    cursor: pointer;
+    border-radius: 20px;
+    width:90px;
+    height:40px;
+    border-color: teal;
+    color: dodgerblue;
+    background-color: transparent;
+    font-weight:bold;
+    font-size: medium;
+    border-color: dodgerblue;
+    border:1px solid dodgerblue;
+   /* padding-bottom: 3px; */
+    
+}
+.loginButton2Ayush{
+    cursor: pointer;
+    border-radius: 20px;
+    width:100px;
+    height:40px;
+    border-color:transparent;
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: medium;
+}
+.lineAyush{
+    color:black;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+.navParaAyush{
+    width:1px;
+    height:25px;
+}
+.navEmpAyush{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.navBorderAyush{
+    cursor: pointer;
+    border: transparent;
+    font-weight: 700;
+    font-size:medium;
+    color:#445578 ;
+}
+.navBorderAyush:hover{
+    border-bottom: 5px solid tomato;
+    color: black;
+}
+
+/* ------------------------------------------Navbar-Media-Query--------------------------------------------------------------------- */
+
+
+
+/* @media (max-width:820px){
+    .navbarAyush{
+        width:fit-content;
+        padding-left: 0px;
+        
+    }
+} */
+
+
+

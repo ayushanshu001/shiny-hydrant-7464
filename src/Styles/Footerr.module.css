@@ -1,0 +1,39 @@
+.boxFooter{
+    height:auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    /* background-color: yellow; */
+    justify-content: center;
+    
+}
+.MainAyush{
+    display: flex;
+}
+.imgAyush{
+    display: flex;
+    gap: 8px;
+    padding-top: 65px;
+    padding-left: 160px;
+}
+.imgAyus>img:hover{
+    background-color: blue;
+}
+.imgReduce{
+    height: 25px;
+    width:25px;
+    
+}
+.alignAyush{
+    text-align: left;
+    
+}
+.alignAyush>p:hover{
+    color:blue
+}
+.alignAyush>p {
+    color: #445578;
+    
+}
+/* .pAyush{
+    padding: 100px ;
+} */

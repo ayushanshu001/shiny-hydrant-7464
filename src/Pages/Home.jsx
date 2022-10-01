@@ -6,6 +6,7 @@ import FeaturedCompaniesPage from './FeaturedCompaniesPage'
 import SingleCompanyPage from './SingleCompanyPage'
 import DreamJob from '../Components/DreamJob'
 import '../Styles/Home.css'
+import Accelerateyourjob from '../Components_Avi/Accelerateyourjob'
 
 
 const Home = () => {
@@ -19,6 +20,9 @@ const Home = () => {
                         </div>
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
+                        <div>
+                          <Accelerateyourjob/>
+                        </div>
                         <Roles />
 
                 </div >

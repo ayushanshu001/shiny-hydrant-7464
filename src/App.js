@@ -10,6 +10,7 @@ import Comp_Side from './Components_Avi/Comp_Side';
 import React from "react"
 import './App.css'
 import './App.css'
+import Footerr from "./Components/Footerr";
 import Navbar from "./Components/Navbar";
 import AllRout from "./Routing/AllRout";
 import './App.css' 
@@ -26,12 +27,14 @@ import SingleCompanyPage from "./Pages/SingleCompanyPage";
 function App() {
   return (
     <div className="App">
- <Navbar/>
+      <Navbar/>
       <AllRout/>
-      <SingleCompanyPage/>
-      <AllRout/>
+    </div >
+  )
+
       
     </div>
   );
+
 }
 export default App;

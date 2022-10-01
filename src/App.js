@@ -9,7 +9,7 @@ import Comp_Side from './Components_Avi/Comp_Side';
 function App() {
   return (
     <div className="App">
-     
+      
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./MultiCardsCarousel.css";
+import "../Styles/MultiCardsCarousel.css";
 
 import { AiFillStar } from 'react-icons/ai';
 import { Pagination, Navigation } from "swiper";

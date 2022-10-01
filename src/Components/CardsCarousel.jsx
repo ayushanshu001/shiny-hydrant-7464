@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CardsCarousel.css"
+import "../Styles/CardsCarousel.css"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 

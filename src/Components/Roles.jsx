@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import DiscoverJob from './DiscoverJob';
-import "./Roles.css"
+import "../Styles/Roles.css"
 
 const Roles = () => {
     return (

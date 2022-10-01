@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import "./Register.css"
+import "../Styles/Register.css"
 
 export class Register extends PureComponent {
   render() {

@@ -1,15 +1,13 @@
+
+import React from "react"
 import './App.css'
-import './App.css' 
-import Navbar from './Components/Navbar';
-import AllRout from './Routing/AllRout';
+import './App.css'
 
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <AllRout/>
-   </div>
+    </div >
   )
 }
 export default App;

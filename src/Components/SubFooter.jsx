@@ -22,6 +22,12 @@ All rights reserved © 2022 Info Edge (India) Ltd.</p>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png'/>
             <img style={{height:'50px',width:'150px'}} src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png'/>
             </marquee>
+=======
+            <img style={{height:'50px',width:'150px'}} alt=""src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/firstNaukri.png'/>
+            <img style={{height:'50px',width:'150px'}} alt=""src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/shiksha.png'/>
+            <img style={{height:'50px',width:'150px'}} alt=""src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/nnacres.png'/>
+            <img style={{height:'50px',width:'150px'}} alt=""src='https://static.naukimg.com/s/0/0/i/new-homepage/footer-logos/jeevansathi.png'/>
+
         </div>
     </div>
   )

@@ -58,6 +58,12 @@ const SingleCompany = () => {
                                 </div>
                             </div>
                         </div>
+                        {/* about section start  */}
+                        <div className="introSelection">
+                            <div>Overview</div>
+                            <div>Why Join Us</div>
+                            <div>Jobs</div>
+                        </div>
                     </div>
                 </div>
             }

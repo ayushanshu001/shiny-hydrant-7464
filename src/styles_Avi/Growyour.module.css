@@ -1,0 +1,36 @@
+.GrowBox {
+  margin-top: 80px;
+  height: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* border: 1px solid #ff0000;  */
+  display: flex;
+}
+.swiper_Avi {
+    margin-left: 50px;
+  width: 1150px;   
+  height: 100%;
+}
+.GrowFirst {
+    margin-top: 65px;
+    width: 200px;
+   }
+.SwiperSlide_Avi {
+  /* border: 1px solid black;  */
+  text-align: center;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+

@@ -1,0 +1,14 @@
+.hovering_data{
+    height:10;
+    width:20 ;
+    border:2px solid gray;
+    border-radius:40px;
+    color: black;
+    
+}
+.hovering_data:hover{
+    background-color:rgb(238, 164, 164);
+}
+.TabList{
+    gap: 20px;
+}

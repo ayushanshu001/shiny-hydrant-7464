@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/FeaturesCompanyUI.css"
 import { AiFillStar } from 'react-icons/ai';
+import {Link} from 'react-router-dom'
 const FeatureCompanyUI = ({ companies }) => {
     // console.log(companies)
     return (

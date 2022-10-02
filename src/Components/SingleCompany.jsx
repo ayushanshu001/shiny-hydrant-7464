@@ -1,12 +1,22 @@
+
 // import axios from 'axios';
 // import { Checkmark } from 'react-checkmark'
 // import React, { useEffect, useState } from 'react';
 // import styled from 'styled-components';
 // import "../Styles/SingleCompany.css";
 
+import axios from 'axios';
+import { Checkmark } from 'react-checkmark'
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+import "../Styles/SingleCompany.css";
+import {useParams} from 'react-router-dom'
+
+
 // import { AiFillStar } from 'react-icons/ai';
 
 // const SingleCompany = () => {
+
 
 //     const [data, setData] = useState({})
 //     console.log(data)
@@ -20,6 +30,28 @@
 //     useEffect(() => {
 //         getCompany();
 //     }, [])
+
+    const [data, setData] = useState({})
+    const params=useParams()
+    console.log(data)
+    const getCompany = (title) => {
+        return axios.get(`https://chalo-api.herokuapp.com/Cognizant`+title).then(res => { 
+                return (
+                    console.log(res)
+                    
+                )
+             })
+    }
+
+    
+    const handleGetData2=async()=>{
+        const data=await getCompany(params.title)
+        setData(data)
+    }
+    useEffect(() => {
+        handleGetData2()
+    }, [params.title])
+    console.log(params)
 
 //     return (
 //         <SingleCompanyContainer>

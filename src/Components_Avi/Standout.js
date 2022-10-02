@@ -1,3 +1,4 @@
+import React from 'react'
 import Styles from "../styles_Avi/Standout.module.css";
 export default function Standout() {
   return (

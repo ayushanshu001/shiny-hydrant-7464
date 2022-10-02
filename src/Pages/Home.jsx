@@ -7,6 +7,8 @@ import SingleCompanyPage from './SingleCompanyPage'
 import DreamJob from '../Components/DreamJob'
 import '../Styles/Home.css'
 import Accelerateyourjob from '../Components_Avi/Accelerateyourjob'
+import Growyour from '../Components_Avi/Growyour'
+import Standout from '../Components_Avi/Standout'
 
 
 const Home = () => {
@@ -23,11 +25,14 @@ const Home = () => {
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
                         <Roles />
-                        <div>
+                        {/* <div>
                                <Accelerateyourjob/>
-                        </div>
+                        </div> */}
                         {/* <div>
                           <Growyour/>
+                        </div>
+                        <div>
+                          <Standout/>
                         </div> */}
 
                 </div >

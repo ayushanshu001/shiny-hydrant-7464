@@ -1,15 +1,17 @@
 .container_ji{
-    margin-top: 5%;
     height: 100%;
     width: 100%;
     border: 1px solid red;
+    display: flex;
+    scroll-behavior: none;
 }
 .sidebar_ji{
-    border: 1px solid black;
+  
     margin: 5% 0% 0% 5%;
     height: auto;
     width: 20%;
     position: fixed;
+    overflow: hidden;
 }
 .sliderimage_ji{
     height: 20%;
@@ -17,11 +19,11 @@
 
 }
 .rightbar_ji{
-    border: 1px solid black;
+   
     margin-left: 30%;
     height: auto;
-    width: 60%;
-    ;
+    width: 50%;
+    overflow: hidden;
 }
 .headding1_ji{
     font-size: 19px;
@@ -77,28 +79,30 @@ border-top-left-radius:20px;
 border-bottom-left-radius:20px;
 margin-bottom: -20px;
 }
-.button_ji{
-    border:none;
-    padding: 15% 73% 15% 73%;
-    color: white;
-    font-size: 80%;
-    font-weight: 600;
+.resume_ji{
     background-color: #FF7555;
-    border-radius: 20px;
-
 }
+
+
+::-webkit-file-upload-button {
+    background: #FF7555;
+    color: white;
+    padding: 2% 4% 2% 4%;
+    border: none;
+  }
+
 .button-div_ji{
     color:#445578;
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
-    margin: auto;
-    margin-left: 80px;
+    /* margin: auto; */
+    /* margin-left: 80px; */
     /* border: 1px solid #FF7555; */
 }
 .checkbox_ji{
 display: flex;
-border: 1px solid red;
-margin-top: 0%;
+/* border: 1px solid red; */
+margin-top: 5%;
 }
 .checkbox_ji>p{
 margin-top: 0%;
@@ -107,10 +111,51 @@ font-size: 13px;
 }
 .checkboxinput_ji{
 margin-top: -1.5%;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 .checkboximage_ji{
 height: 20px;
-margin-top: 0%;
+width: 20px;
+margin:0% 1% 0% 1% ;
 }
 
+.register_ji{
+    border: none;
+    background-color: #457EFF;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 2% 4% 1.5% 4%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+
+
+.googlebar_ji{
+   border-left: 1px solid rgb(211, 225, 234);
+    margin: 13% 0% 0% 0%;
+    height: 100%;
+    width: 10%;
+    padding: 10% 3% 10% 5%;
+  
+}
+.googlebarbutton_ji{
+display: flex;
+height: 40px;
+align-items: center;
+border: 1px solid #457EFF;
+margin: 0% 0% 0% 9%;
+}
+.googleimage_ji{
+    height: 100%;
+    width: 20px;
+    margin-right: 4%;
+
+}

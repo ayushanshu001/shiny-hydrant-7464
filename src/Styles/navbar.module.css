@@ -4,7 +4,7 @@
      z-index: 2000;  */
     height:65px;
     width:100%;
-   padding-left: 50px;
+   /* padding-left: 50px; */
     display: flex;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

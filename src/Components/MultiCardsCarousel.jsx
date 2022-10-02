@@ -8,7 +8,6 @@ import "../Styles/MultiCardsCarousel.css";
 
 import { AiFillStar } from 'react-icons/ai';
 import { Pagination, Navigation } from "swiper";
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
 import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css'
@@ -31,7 +30,7 @@ const MultiCardsCarousel = ({ FeaturedCompany }) => {
             className="mySwiper"
         >
             {FeaturedCompany.map((ele, index) => (
-                <Link to={`/singlecompany/${ele.title}`}>
+                <Link to={`/companies/${ele.id}`} key={ele.id}>
                 <SwiperSlide key={index}>
                     <div className="FeatureSingleCard">
                         <div className="featureImage"><img src={ele.image} alt="logo" /></div>

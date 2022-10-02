@@ -1,10 +1,12 @@
-// import React, { useRef, useState } from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import 'swiper/swiper.min.css'
-// import 'swiper/modules/pagination/pagination.min.css'
-// import 'swiper/modules/navigation/navigation.min.css'
-// import "../Styles/MultiCardsCarousel.css";
 
+import React from "react";
+import { AiFillStar } from 'react-icons/ai';
+import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
+import 'swiper/swiper.min.css'
+import 'swiper/modules/pagination/pagination.min.css'
+import 'swiper/modules/navigation/navigation.min.css'
+import "../Styles/MultiCardsCarousel.css";
 
 // import { AiFillStar } from 'react-icons/ai';
 // import { Pagination, Navigation } from "swiper";

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import style from '../Styles/navbar.module.css'
-import {Link} from 'react-router-dom'
+
+import { Link } from 'react-router-dom'
 import { auth, db, logout } from "../Firebase/Firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";

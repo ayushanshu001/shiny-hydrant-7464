@@ -12,18 +12,13 @@ import React from "react"
 
 import AllRout from "./Routing/AllRout";
 import Navbar from './Components/Navbar';
-
-
+import AllRout from './Routing/AllRout';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <AllRout />
-      {/* <Growyour/> */}
-    </div >
-
-  )
+      <Navbar/> 
+      <AllRout/>
 
 
 }

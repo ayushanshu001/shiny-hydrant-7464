@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import Prepareforyour from'./Components_Avi/Prepareforyour'
 import Accelerateyourjob   from './Components_Avi/Accelerateyourjob';
@@ -9,15 +7,15 @@ import Comp_Side from './Components_Avi/Comp_Side';
 
 import React from "react"
 import './App.css'
-import './App.css'
-import Navbar from "./Components/Navbar";
+// import React from "react"
+// import './App.css'
+// import Navbar from "./Components/Navbar";
 import AllRout from "./Routing/AllRout";
 import './App.css' 
 import Navbar from './Components/Navbar';
 import SingleCompany from "./Components/SingleCompany";
-import AllRout from './Routing/AllRout';
+// import AllRout from './Routing/AllRout';
 
-import React from "react"
 import './App.css'
 import './App.css'
 import SingleCompanyPage from "./Pages/SingleCompanyPage";
@@ -26,11 +24,14 @@ import SingleCompanyPage from "./Pages/SingleCompanyPage";
 function App() {
   return (
     <div className="App">
- <Navbar/>
-      <AllRout/>
+ {/* <Navbar/> */}
+      {/* <AllRout/>
       <SingleCompanyPage/>
-      <AllRout/>
-      
+      <AllRout/> */}
+      <Accelerateyourjob />
+      <Growyour />
+      <Prepareforyour />
+      <Standout />
     </div>
   );
 }

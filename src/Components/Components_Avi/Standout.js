@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "../styles_Avi/Standout.module.css";
+import Styles from "../Components_Avi/styles_Avi/Standout.module.css";
 export default function Standout() {
   return (
     <div>
@@ -23,21 +23,23 @@ export default function Standout() {
             </button>
             </div>
             
-            <div style={{ display: "flex", gap: "10px", marginTop: "20px" }}>
+            <div style={{ display: "flex", gap: "10px", marginTop: "20px", }}>
               <img
                 src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png"
                 alt="photo"
+                style={{width:"30%"}}
               />
               <img
                 src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png"
                 alt="photo"
+                style={{width:"30%"}}
               />
             </div>
           </div>
           <div>
             <div className={Styles.qr_Avi}>
               <img
-                style={{ height: "100px" }}
+                style={{ height: "100px",width:"100px" }}
                 src="https://static.naukimg.com/s/0/0/i/download-app-link/qr-code.svg"
                 alt="photo"
               />
@@ -51,6 +53,8 @@ export default function Standout() {
           <img
             src="https://static.naukimg.com/s/0/0/i/download-app-link/MaskGroup_v4.png"
             alt="photo"
+            style={{height:"90%",
+          width:"90%"}}
           />
         </div>
       </div>

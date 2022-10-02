@@ -1,17 +1,12 @@
 import React from 'react'
-import FeaturedCompanies from '../Components/FeaturedCompanies'
 import Roles from '../Components/Roles'
 import TopCompanies from '../Components/TopCompanies'
-import FeaturedCompaniesPage from './FeaturedCompaniesPage'
+import Footerr from '../Components/Footerr'
 import DreamJob from '../Components/DreamJob'
-import '../Styles/Home.css'
-
-import SingleCompanyPage from './SingleCompanyPage'
-
-
-import Accelerateyourjob from '../Components_Avi/Accelerateyourjob'
-import Growyour from '../Components_Avi/Growyour'
-import Standout from '../Components_Avi/Standout'
+import FeaturedCompanies from '../Components/FeaturedCompanies'
+import Accelerateyourjob from '../Components/Components_Avi/Accelerateyourjob'
+import Growyour from '../Components/Components_Avi/Growyour'
+import Standout from '../Components/Components_Avi/Standout'
 
 
 
@@ -26,10 +21,13 @@ const Home = () => {
                         <div className='topAyush'>
                               <TopCompanies />
                         </div>
-                        <FeaturedCompanies />
-                        {/* <FeaturedCompaniesPage /> */}
-                        <SingleCompanyPage/>
+                        <FeaturedCompanies/>
+                        <Accelerateyourjob/>
+                        <Growyour/>
+                        <Standout/>
                         <Roles />
+                        
+                        <Footerr/>
 
                 </div >
         )

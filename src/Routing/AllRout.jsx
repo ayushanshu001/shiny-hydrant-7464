@@ -1,9 +1,7 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import LogoutPage from '../Components/LogoutPage'
+import LogoutPage from "../Components/LogoutPage"
 import Reset from '../Components/Reset'
-import TopCompanies from '../Components/TopCompanies'
-
 import Home from '../Pages/Home'
 import SingleCompanyPage from '../Pages/SingleCompanyPage'
 import Companies from './Companies'

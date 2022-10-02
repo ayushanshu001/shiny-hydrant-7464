@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/css/navigation";
-import Styles from "../styles_Avi/Growyour.module.css";
+import Styles from "../Components_Avi/styles_Avi/Growyour.module.css";
 import { Navigation } from "swiper";
 export default function Growyour() {
   return (
@@ -14,6 +14,7 @@ export default function Growyour() {
           <img
             src="https://static.naukimg.com/s/0/0/i/learn-icon.svg"
             alt="photo"
+            style={{height:"150px",width:"150px"}}
           />
         </div>
         <div className={Styles.Scroll_Avi}>
@@ -23,7 +24,7 @@ export default function Growyour() {
             className={Styles.swiper_Avi}
           >
             <SwiperSlide className="SwiperSlide_Avi">
-              <div style={{ display: "flex", marginTop: "80px" }}>
+              <div style={{ display: "flex", marginTop: "80px",marginRight:"50px" }}>
                 <div
                   style={{
                     borderRadius: "20px 0px",
@@ -106,7 +107,7 @@ export default function Growyour() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="SwiperSlide_Avi">
-              <div style={{ display: "flex", marginTop: "80px" }}>
+              <div style={{ display: "flex", marginTop: "80px",marginLeft:"50px" }}>
                 <div
                   style={{
                     borderRadius: "20px 0px",

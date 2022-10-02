@@ -11,6 +11,7 @@
     width: 20%;
     margin-top: 100px;
     text-align: left;
+        /* border: 1px solid red;  */
   }
   .Prepare_second{
     /* border: 1px solid red;  */
@@ -31,8 +32,8 @@
     color:#9679ce;
     border: none;
     border-radius: 5px;
-    height: 30px;
-    width: 140px;
+    height: 50px;
+    width: 160px;
   }
   .Prepare_h2{
     font-size: 29px;

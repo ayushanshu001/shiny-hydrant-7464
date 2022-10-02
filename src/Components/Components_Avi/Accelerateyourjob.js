@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Styles from "../styles_Avi/Accelerateyourjob.module.css";
+import Styles from '../Components_Avi/styles_Avi/Accelerateyourjob.module.css'
 
 export default function Accelerateyourjob() {
   return (
@@ -8,7 +8,7 @@ export default function Accelerateyourjob() {
       <div className={Styles.Accelarate_Avi}>
         <div className={Styles.Accelarate_First}>
           <img
-            style={{ marginTop: "40px", marginLeft: "90px" }}
+            style={{ marginTop: "40px", marginLeft: "90px",width:"150px",height:"100px"}}
             src="https://static.naukimg.com/s/0/0/i/ff-services.png"
             alt="photo"
           />

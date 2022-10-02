@@ -29,9 +29,10 @@ export default function Comp_Side() {
           <h3 style={{ textAlign: "left" }}>Company Type</h3>
           <div
             style={{
+              width:"350px",
               textAlign: "left",
               height: "170px",
-            //   border: "1px solid red",
+              // border: "1px solid red",
               overflowY: "scroll",
               scrollbarColor: "black",
               scrollbarRadius: "10px",
@@ -122,6 +123,7 @@ export default function Comp_Side() {
             style={{
               textAlign: "left",
               height: "170px",
+              width:"350px",
             //   border: "1px solid red",
               overflowY: "scroll",
               scrollbarColor: "black",
@@ -335,6 +337,7 @@ export default function Comp_Side() {
             style={{
               textAlign: "left",
               height: "170px",
+              width:"350px",
             //   border: "1px solid red",
               overflowY: "scroll",
               scrollbarColor: "black",
@@ -493,6 +496,7 @@ export default function Comp_Side() {
             style={{
               textAlign: "left",
               height: "170px",
+              width:"350px",
             //   border: "1px solid red",
               overflowY: "scroll",
               scrollbarColor: "black",
@@ -635,7 +639,7 @@ export default function Comp_Side() {
             height: "40px",
             borderRadius: "30px",
             padding:"10px",
-            marginLeft:"-270px"
+            marginLeft:"-250px"
           }}
         >
          
@@ -650,7 +654,7 @@ export default function Comp_Side() {
             borderRadius: "30px",
             marginTop:"10px",
             padding:"10px",
-            marginLeft:"-280px"
+            marginLeft:"-270px"
 
           }}
         >
@@ -665,7 +669,7 @@ export default function Comp_Side() {
             height: "40px",
             borderRadius: "30px",
             padding:"10px",
-            // marginLeft:"-280px"
+            marginLeft:"-100px"
           }}
         >
           B2B (1731)
@@ -679,7 +683,6 @@ export default function Comp_Side() {
             borderRadius: "30px",
             marginTop:"10px",
             padding:"10px",
-            
             marginLeft:"20px"
           }}
         >
@@ -722,7 +725,6 @@ export default function Comp_Side() {
             borderRadius: "30px",
             marginTop:"10px",
             padding:"10px",
-            
             marginLeft:"20px"
           }}
         >

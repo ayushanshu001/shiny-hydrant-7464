@@ -1,4 +1,5 @@
 import Styles from "../styles_Avi/Prepareforyour.module.css";
+import React from "react";
 export default function Prepareforyour() {
   return (
     <div className={Styles.Prepare_Avi}>
@@ -11,7 +12,11 @@ export default function Prepareforyour() {
         <img
           src="https://static.naukimg.com/s/0/0/i/ab-interview.png"
           alt="image"
-          height="160"
+          style={{
+            height:"150px",
+            width:"150px"
+          }}
+   
         />
       </div>
       <div className={Styles.Prepare_second}>

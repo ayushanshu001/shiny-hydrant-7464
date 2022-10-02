@@ -43,7 +43,7 @@ const signInWithGoogle=()=>{
      
         const user = result.user;
         const q = query(collection(db, "users"), where("uid", "==", user.uid));
-        const docs=getDoc(q)
+        const docs=getDocs(q)
         if (docs.docs.length === 0) {
              addDoc(collection(db, "users"), {
               uid: user.uid,

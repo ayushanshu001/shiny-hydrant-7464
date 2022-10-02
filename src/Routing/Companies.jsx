@@ -8,6 +8,7 @@ import SingleCompanyPage from '../Pages/SingleCompanyPage'
 const Companies = () => {
   return (
     <div>
+        <TopCompanies/>
         <FeaturedCompanies/>
         <FeaturedCompaniesPage/>
     </div>

@@ -5,38 +5,22 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import "../Styles/SingleCompany.css";
 import { AiFillStar } from 'react-icons/ai';
+import {useParams} from 'react-router-dom'
 
 const SingleCompany = () => {
-
     const [data, setData] = useState({})
     console.log(data)
-
+    const params=useParams()
     const getCompany = (title) => {
-        return axios.get(`https://chalo-api.herokuapp.com/${title}`).then(res => { 
-                    setData(res.data)
-                
-             })
-    }
-
-    
-    // const handleGetData2=async()=>{
-    //     const data=await getCompany(params.id)
-    //     setData(data)
-    // }
-    useEffect(() => {
-       getCompany(params.id)
-    }, [params.id])
-    console.log(params)
-    const getCompany = () => {
         return axios
-            .get(`https://chalo-api.herokuapp.com/Cognizant`)
+            .get(`https://chalo-api.herokuapp.com/${title}`)
             .then(res => { setData(res.data) })
             .catch(e => console.log(e))
     }
 
     useEffect(() => {
-        getCompany();
-    }, [])
+        getCompany(params.id);
+    }, [params.id])
     return (
         <SingleCompanyContainer>
             {data &&
@@ -215,6 +199,12 @@ const SingleCompany = () => {
         </SingleCompanyContainer >
     )
 
-
+  }
 
 export default SingleCompany
+
+const SingleCompanyContainer=styled.div`
+padding:0px;
+margin:0px;
+
+`;

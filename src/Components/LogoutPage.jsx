@@ -5,12 +5,16 @@ import {useNavigate} from 'react-router-dom'
 
 function LogoutPage() {
     const [user, loading, error] = useAuthState(auth);
-    console.log(user.photoURL)
+    // console.log(user)
     const navigate=useNavigate()
-
+    
  useEffect(() => {
         if (loading) return;
-        if (!user) return navigate("/");
+        if (!user) return navigate("/login");
+        if(user===null){
+          console.log("ki")
+        }
+    
       }, [user, loading]);
 
 

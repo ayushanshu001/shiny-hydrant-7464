@@ -1,3 +1,4 @@
+
 import axios from 'axios';
 import { Checkmark } from 'react-checkmark'
 import React, { useEffect, useState } from 'react';
@@ -197,9 +198,7 @@ const SingleCompany = () => {
             }
         </SingleCompanyContainer >
     )
-}
-const SingleCompanyContainer = styled.div`  
-padding:0px;
-margin:0px;
-`;
+
+
+
 export default SingleCompany

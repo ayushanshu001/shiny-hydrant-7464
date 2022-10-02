@@ -5,18 +5,26 @@ import TopCompanies from '../Components/TopCompanies'
 import FeaturedCompaniesPage from './FeaturedCompaniesPage'
 import DreamJob from '../Components/DreamJob'
 import '../Styles/Home.css'
+
 import SingleCompanyPage from './SingleCompanyPage'
+
+
+import Accelerateyourjob from '../Components_Avi/Accelerateyourjob'
+import Growyour from '../Components_Avi/Growyour'
+import Standout from '../Components_Avi/Standout'
 
 
 
 const Home = () => {
-        return (
+
+  return (
+
                 <div>
                         <div className='homedivAyush'>
-                                <DreamJob />
+                              <DreamJob />
                         </div>
                         <div className='topAyush'>
-                                <TopCompanies />
+                              <TopCompanies />
                         </div>
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
@@ -25,6 +33,7 @@ const Home = () => {
 
                 </div >
         )
+
 }
 
 export default Home

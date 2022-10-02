@@ -1,4 +1,5 @@
-import Styles from "./Standout.module.css";
+import React from 'react'
+import Styles from "../styles_Avi/Standout.module.css";
 export default function Standout() {
   return (
     <div>
@@ -18,7 +19,7 @@ export default function Standout() {
               placeholder="Enter mobile number..."
             />
             <button className={Styles.Inbtn_Avi}>
-              <span className={Styles.span_Avi}>Get link</span>
+              <span className={Styles.span_Avi}>Getlink</span>
             </button>
             </div>
             

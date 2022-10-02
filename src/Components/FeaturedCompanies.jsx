@@ -6,7 +6,7 @@ const FeaturedCompanies = () => {
     return (
         <FeaturedCompany>
             <h1>Featured companies actively hiring</h1>
-            <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData} />
+            {/* <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData} /> */}
             <button className="viewAll">View all companies</button>
         </FeaturedCompany>
     );

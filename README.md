@@ -7,5 +7,6 @@
 <h2 align='center'>Screenshots</h2>
 
 ![Landing Page 1](https://raw.githubusercontent.com/ayushanshu001/shrewd-drink-6002/main/Screenshoot.PNG?raw=true)
+<br/>
 ![Company Page 2](https://github.com/ayushanshu001/shrewd-drink-6002/blob/main/Screenshots2.PNG?raw=true)
 

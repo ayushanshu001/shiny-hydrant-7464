@@ -36,38 +36,39 @@
 }
 
 .singleContent {
+    /* z-index: 1;
+    background-color: white;
+    margin-top: -150px; */
     border: 2px solid white;
     width: 100%;
-    /* margin-top:-20px; */
     border-radius: 20px 0px 20px 0px;
+    padding: 50px;
 }
 
 .singleCompanyIntro {
-    width: 95%;
-    margin: auto;
     margin-top: 5%;
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 30px;
 }
 
 .singleCompanyLogo {
-    width: 104px;
-    height: 104px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
     border-radius: 12px 6px;
-    overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .singleCompanyLogo>img {
-    width: 110%;
-    height: 100%;
-    object-fit: fill;
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
 }
 
 .singleCompanyIntroRight {
     padding: 0px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -117,7 +118,7 @@
 .singleCompanyFollow {
     max-width: 280px;
     position: relative;
-    left: 600px;
+    left: 500px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -166,8 +167,401 @@
     font-size: 13px;
 }
 
-.introSelection {
-    display: flex;
-    gap: 40px;
+.singleCompanyAbout {
+    width: 92%;
 }
 
+.introSelection {
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+}
+
+.introSelection>div {
+    display: inline-block;
+    font-size: 17px;
+    padding: 0 10px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-family: sans-serif;
+    color: #494e6b;
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+}
+
+.introSelection>div:hover {
+    cursor: pointer;
+}
+
+.introSelection div:first-child {
+    font-weight: 700;
+    color: #191b1f;
+    padding-bottom: 10px;
+    border-bottom: 5px solid orange;
+    margin-bottom: -11.5px;
+}
+
+.singleCompanyMid {
+    width: 92%;
+    display: grid;
+    grid-template-columns: 72% 24%;
+    gap: 30px;
+}
+
+.leftSection {
+    /* border: 2px solid blue; */
+    padding: 0px;
+}
+
+.singleDiversity,
+.singleAbout {
+    margin-bottom: 30px;
+}
+
+.singleAbout>p,
+.singleDiversity>p,
+.singleLeader>p:first-child,
+.cognizantBase>p {
+    font-family: 'Inter', Courier, monospace;
+    text-align: left;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 22px;
+    color: #1b2437;
+}
+
+.singleAboutInner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.singleAboutInner>.aboutImage {
+    width: 380px;
+    height: 200px;
+    border-radius: 12px 6px;
+    border: 1px solid #eaf1f5;
+    overflow: hidden;
+}
+
+.singleAboutInner>p {
+    margin-top: -5px;
+    text-align: left;
+    padding: 5px;
+    width: 409px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0d0d0ecc;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.singleDiversityInner {
+    display: grid;
+    grid-template-columns: 35% 63%;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.diversityImage {
+    /* width: 280px; */
+    height: 180px;
+    border-radius: 12px;
+    border: 1px solid #eaf1f5;
+    overflow: hidden;
+}
+
+.diversityImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.singleDiversityInner>p {
+    padding: 10px;
+    margin-top: -5px;
+    text-align: left;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0d0d0ecc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.singleLeadersInner {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.singleLeaderCard {
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid #eaf1f5;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.singleLeaderImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.singleLeaderImage>img {
+    width: 100%;
+    height: 100%;
+}
+
+.singleLeaderName {
+    padding-top: 21px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1e223c;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.singleLeaderName+p {
+    margin: 0px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #445578;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.cognizantBaseInner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: flex-start;
+}
+
+.cognizantBaseLeft>div,
+.cognizantBaseRight>div {
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cognizantBaseData>p:nth-child(1) {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    color: #445578;
+    font-size: 15px;
+}
+
+.cognizantBaseData>p:nth-child(2) {
+    box-sizing: border-box;
+    color: #1b2437
+}
+
+.cognizantBaseLink>p {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    color: #445578;
+    font-size: 15px;
+}
+
+.cognizantBaseLink>a>p {
+    box-sizing: border-box;
+    color: #09c;
+}
+
+.cognizantBaseLink>a {
+    text-decoration: none;
+}
+
+/* .rightSection {
+    border: 2px solid red;
+} */
+
+.singleHighlight {
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    border-radius: 15px 8px;
+    padding: 22px 20px;
+}
+
+.singleHighlight>p,
+.singleEmployeeSpeaks>p,
+.companySocialMedia>p {
+    text-align: left;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 22px;
+    color: #1b2437;
+    font-size: 17px;
+}
+
+.singleHighlightCard {
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.highlightImage {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+.highlightImage>img {
+    width: 100%;
+    height: 100%;
+}
+
+.highlightInfo {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.highlightInfo>p:first-child {
+    font-size: 15px;
+    line-height: 20px;
+    color: #17191f;
+    font-weight: 900;
+}
+
+.highlightInfo>p:nth-child(2) {
+    margin-top: -15px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.singleEmployeeSpeaks {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    border-radius: 15px 8px;
+    padding: 22px 20px;
+}
+
+.employeeSpeakCard {
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 13px;
+}
+
+.employeeSpeakCard>p:nth-child(2) {
+    color: #445578;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.employeeSpeakCard>p:nth-child(3) {
+    padding-left: 8px;
+    line-height: 18px;
+    color: #1b2437;
+}
+
+.employeeSpeakBottom {
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    border-radius: 10px 8px;
+}
+
+.employeeSpeakBottomRating {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.employeeSpeakBottomRating>p {
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    border-radius: 12px 6px;
+    color: #445578;
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.employeeSpeakBottomIntro {
+    color: #445578;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -20px;
+}
+
+.employeeSpeakBottom>p {
+    padding-top: 10px;
+    color: #8292b4;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.singleAmbitionLeft {
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.singleAmbitionLogo {
+    width: 14px;
+    height: 14px;
+}
+
+.singleAmbitionLogo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.singleAmbitionLogo+p {
+    padding-top: 3px;
+    font-size: 13px;
+    color: #8292b4;
+    padding-left: 4px;
+}
+
+.singleAmbitionLogo+p+p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #457eff;
+    font-weight: 600;
+    padding-left: 25%;
+    cursor: pointer;
+}
+
+.companySocialMedia {
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    border-radius: 15px 8px;
+    padding: 22px 20px;
+}
+
+.companySocialMediaInner{
+    display:flex;
+    justify-content: flex-start;
+}
+.companyFbLogo,
+.companyTwitterLogo{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+}

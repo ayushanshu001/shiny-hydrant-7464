@@ -1,21 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { useNavigate } from 'react-router-dom';
 import { auth, db, logout } from "../Firebase/Firebase";
+import LogoutPage from './LogoutPage';
 
 
 function LogoutAuth() {
 
-    // useEffect(() => {
-    //     if (loading) return;
-    //     if (!user) return navigate("/");
-    
-    //     fetchUserName();
-    //   }, [user, loading]);
+  const [user, loading, error] = useAuthState(auth);
+  console.log(user.photoURL)
+  const navigate=useNavigate()
+
 
   return (
-    <div>
-         {/* <Link to="/logoutPage"><button>Logout</button></Link> */}
-         <button onClick={logout}>Logout</button>
+    <div style={{display:"flex"}}>
+        <button onClick={logout}>Logout</button>
+         <div>
+            <img src={user.photoURL}/>
+         </div>
     </div>
   )
 }

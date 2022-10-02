@@ -3,12 +3,16 @@ import FeaturedCompanies from '../Components/FeaturedCompanies'
 import Roles from '../Components/Roles'
 import TopCompanies from '../Components/TopCompanies'
 import FeaturedCompaniesPage from './FeaturedCompaniesPage'
-import SingleCompanyPage from './SingleCompanyPage'
 import DreamJob from '../Components/DreamJob'
 import '../Styles/Home.css'
+
+import SingleCompanyPage from './SingleCompanyPage'
+
+
 import Accelerateyourjob from '../Components_Avi/Accelerateyourjob'
 import Growyour from '../Components_Avi/Growyour'
 import Standout from '../Components_Avi/Standout'
+
 
 
 const Home = () => {
@@ -24,16 +28,8 @@ const Home = () => {
                         </div>
                         <FeaturedCompanies />
                         <FeaturedCompaniesPage />
+                        <SingleCompanyPage/>
                         <Roles />
-                        {/* <div>
-                               <Accelerateyourjob/>
-                        </div>
-                        <div>
-                          <Growyour/>
-                        </div>
-                        <div>
-                          <Standout/>
-                        </div> */}
 
                 </div >
         )

@@ -3,7 +3,7 @@
 <h2>Deployed Site</h2> <p align='center'>https://shiny-hydrant-7464.vercel.app</p> 
 <h2>Features</h2>
 <ul><li>Homepage section with carousel</li> <li>Google Authentication</li> <li>Register & Login </li><li>Logout Feature</li> <li>Filtering</li></ul>
-<h2>Tech Stack</h2> <ul align='center'><li>React.js</li><li>Redux</li><li>CSS3</li> <li>Styled Component</li></ul>
+<h2>Tech Stack</h2> <ul><li>React.js</li><li>Redux</li><li>CSS3</li> <li>Styled Component</li></ul>
 <h2>Screenshots</h2>
 
 ![Landing Page 1](https://raw.githubusercontent.com/ayushanshu001/shrewd-drink-6002/main/Screenshoot.PNG?raw=true)

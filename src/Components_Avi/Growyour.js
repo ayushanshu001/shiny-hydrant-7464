@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 import Styles from "../styles_Avi/Growyour.module.css";
 import { Navigation } from "swiper";
 export default function Growyour() {

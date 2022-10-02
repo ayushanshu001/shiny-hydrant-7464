@@ -2,12 +2,13 @@ import React from 'react'
 import { FeaturedCompanyData } from "../Data/FeaturedCompanyData"
 import MultiCardsCarousel from './MultiCardsCarousel';
 import style from "styled-components"
+import {Link} from 'react-router-dom'
 const FeaturedCompanies = () => {
     return (
         <FeaturedCompany>
             <h1>Featured companies actively hiring</h1>
-            {/* <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData} /> */}
-            <button className="viewAll">View all companies</button>
+            <MultiCardsCarousel FeaturedCompany={FeaturedCompanyData} />
+            <Link  to={`/feature`}><button className="viewAll">View all companies</button></Link>
         </FeaturedCompany>
     );
 }

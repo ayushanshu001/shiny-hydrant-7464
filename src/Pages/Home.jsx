@@ -27,7 +27,7 @@ const Home = () => {
                               <TopCompanies />
                         </div>
                         <FeaturedCompanies />
-                        <FeaturedCompaniesPage />
+                        {/* <FeaturedCompaniesPage /> */}
                         <SingleCompanyPage/>
                         <Roles />
 

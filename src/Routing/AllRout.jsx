@@ -2,6 +2,7 @@ import React from 'react'
 import {Routes,Route} from 'react-router-dom'
 import LogoutPage from "../Components/LogoutPage"
 import Reset from '../Components/Reset'
+import FeaturedCompaniesPage from '../Pages/FeaturedCompaniesPage'
 import Home from '../Pages/Home'
 import SingleCompanyPage from '../Pages/SingleCompanyPage'
 import Companies from './Companies'
@@ -19,6 +20,7 @@ const AllRout = () => {
             <Route path='/logoutpage' element={<LogoutPage/>}/>
             <Route path='/reset' element={<Reset/>}/>
             <Route path='/companies/:id' element={<SingleCompanyPage/>}/>
+            <Route path='/feature' element={<FeaturedCompaniesPage/>}/>
 
         </Routes>
     </div>

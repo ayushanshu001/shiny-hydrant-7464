@@ -1,6 +1,6 @@
 <h1>Naukri.com</h1>
 <p>Naukri.com is a recruitment platform that provide hiring related services to corporates, placement agencies and job seekers in India and Overseas.This project is collabrative having 5 Members and done in 5 days. Some changes are still on progress to make project look more better and user friendly.</p>
-<h2>Deployed Site</h2> <p align='center'>https://shiny-hydrant-7464.vercel.app</p> 
+<h2>Deployed Site</h2> <p>https://shiny-hydrant-7464.vercel.app</p> 
 <h2>Features</h2>
 <ul><li>Homepage section with carousel</li> <li>Google Authentication</li> <li>Register & Login </li><li>Logout Feature</li> <li>Filtering</li></ul>
 <h2>Tech Stack</h2> <ul><li>React.js</li><li>Redux</li><li>CSS3</li> <li>Styled Component</li></ul>

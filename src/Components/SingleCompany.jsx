@@ -13,22 +13,20 @@ const SingleCompany = () => {
     const params=useParams()
     console.log(data)
     const getCompany = (title) => {
-        return axios.get(`https://chalo-api.herokuapp.com/Cognizant`+title).then(res => { 
-                return (
-                    console.log(res)
-                    
-                )
+        return axios.get(`https://chalo-api.herokuapp.com/${title}`).then(res => { 
+                    setData(res.data)
+                
              })
     }
 
     
-    const handleGetData2=async()=>{
-        const data=await getCompany(params.title)
-        setData(data)
-    }
+    // const handleGetData2=async()=>{
+    //     const data=await getCompany(params.id)
+    //     setData(data)
+    // }
     useEffect(() => {
-        handleGetData2()
-    }, [params.title])
+       getCompany(params.id)
+    }, [params.id])
     console.log(params)
 
     return (

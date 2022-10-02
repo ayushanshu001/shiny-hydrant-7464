@@ -9,5 +9,12 @@
 ![Landing Page 1](https://raw.githubusercontent.com/ayushanshu001/shrewd-drink-6002/main/Screenshoot.PNG?raw=true)
 <br/>
 ![Company Page 2](https://github.com/ayushanshu001/shrewd-drink-6002/blob/main/Screenshots2.PNG?raw=true)
-<h2 align='center'>Contributors</h2><ul align='center'>- [@paramjeetrawat265](https://github.com/paramjeetrawat265)- [@3Pradeep2888](https://github.com/Pradeep2888)- [@AviAndhariya](https://github.com/AviAndhariya)- [@ayushanshu001](https://github.com/ayushanshu001)- [@cbalaji1997](https://github.com/cbalaji1997)</ul>
+<h2 align='center'>Contributors</h2>
+<div>
+  - [@paramjeetrawat265](https://github.com/paramjeetrawat265) 
+  - [@3Pradeep2888](https://github.com/Pradeep2888)
+  - [@AviAndhariya](https://github.com/AviAndhariya)
+  - [@ayushanshu001](https://github.com/ayushanshu001)
+  - [@cbalaji1997](https://github.com/cbalaji1997)
+</div>
 

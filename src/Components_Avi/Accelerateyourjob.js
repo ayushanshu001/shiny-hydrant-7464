@@ -1,4 +1,7 @@
+
+import React from 'react'
 import Styles from "../styles_Avi/Accelerateyourjob.module.css";
+
 export default function Accelerateyourjob() {
   return (
     <div>
@@ -18,7 +21,7 @@ export default function Accelerateyourjob() {
             more!
           </p>
           <div style={{ display: "flex" }}>
-            <button className={Styles.Acc_btn_Avi1}>
+            {/* <button className={Styles.Acc_btn_Avi1}>
               <img style={{marginRight:"10px"}}  src="https://static.naukimg.com/s/0/0/i/ff-services-icon2.png" />
                        Resume writing   
               <img style={{marginLeft:"10px"}} src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" />
@@ -32,7 +35,7 @@ export default function Accelerateyourjob() {
               <img style={{marginRight:"10px"}} src="https://static.naukimg.com/s/0/0/i/ff-services-icon1.png" />
                    Resume display    
               <img style={{marginLeft:"10px"}} src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" />
-            </button>
+            </button> */}
           </div>
         </div>
         {/* third */}

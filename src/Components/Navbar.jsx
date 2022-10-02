@@ -1,11 +1,7 @@
 
 import style from '../Styles/navbar.module.css'
-import React from 'react'
 import {Link} from 'react-router-dom'
 import React, { useState } from 'react'
-import style from '../Styles/Navbar.module.css'
-
-import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -18,7 +14,7 @@ const Navbar = () => {
                     </div >
                 </Link>    
                     <div className={style.tagAyush}>
-                        <p className={style.tagHoverAyush}>Jobs</p>
+                        <Link to='/' style={{ textDecoration: 'none' }}><p className={style.tagHoverAyush}>Jobs</p></Link>
                         <p className={style.tagHoverAyush}><Link to='/companies' style={{ textDecoration: 'none' }}>Companies</Link></p>
                         <p className={style.tagHoverAyush}>Services</p>
                     </div>

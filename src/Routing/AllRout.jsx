@@ -1,6 +1,9 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import SingleCompany from '../Components/SingleCompany'
+import LogoutPage from '../Components/LogoutPage'
+import Reset from '../Components/Reset'
+import TopCompanies from '../Components/TopCompanies'
+
 import Home from '../Pages/Home'
 import SingleCompanyPage from '../Pages/SingleCompanyPage'
 import Companies from './Companies'
@@ -15,7 +18,10 @@ const AllRout = () => {
             <Route path='/companies' element={<Companies/>} />
             <Route path='/login' element={<Login/>}     />
             <Route path='/register' element={<Register/>}     />
-            <Route path='/singlecompany/:id' element={<SingleCompanyPage/>}/>
+            <Route path='/logoutpage' element={<LogoutPage/>}/>
+            <Route path='/reset' element={<Reset/>}/>
+            <Route path='/companies/:id' element={<SingleCompanyPage/>}/>
+
         </Routes>
     </div>
   )

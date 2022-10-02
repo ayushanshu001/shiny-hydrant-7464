@@ -3,4 +3,5 @@
 <h2 align="center">Deployed Site</h2> <p align='center'>https://shiny-hydrant-7464.vercel.app</p> 
 <h2 align="center">Features</h2>
 <ul align='center'><li>Homepage section with carousel</li> <li>Google Authentication</li> <li>Register & Login </li><li>Logout Feature</li> <li>Filtering</li></ul>
+<h2 align='center'>Tech Stack</h2> <ul><li>React.js<li><li>Redux</li><li>CSS 3</li> <li>Styled Component</li></ul>
 

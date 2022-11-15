@@ -13,6 +13,7 @@ const Footerr = () => {
                         <img style={{padding:'100px 0px 0px 150px',width:'170px',height:'30px'}} src='https://static.naukimg.com/s/4/100/i/naukri_Logo.png' alt="Logo"/>
                     </div>
                     <div></div>
+{/*feedback: fp04_239 and fp01_092 - use loops when we render same elements*/}
                     <div className={style.imgAyush}>
                         <a href='https://www.facebook.com/Naukri/'><img className={style.imgReduce} src='https://i.ibb.co/LSLXHws/facebook.png' alt="facebook"/></a>
                         <a href='https://www.instagram.com/naukridotcom/?hl=en'><img className={style.imgReduce} src='https://i.ibb.co/8KhcSJr/instagram.png' alt="twitter"/></a>

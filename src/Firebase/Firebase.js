@@ -20,6 +20,7 @@ import {
     addDoc,
   } from "firebase/firestore";
 
+// feedback: fw18_0075 - Avoid adding secrets directly here
   const firebaseConfig = {
     apiKey: "AIzaSyC0Fk1tybEkfAT1VcNSGCInC-V6z7bvHa0",
     authDomain: "pradeep--auth.firebaseapp.com",

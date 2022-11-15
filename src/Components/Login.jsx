@@ -4,7 +4,7 @@ import "../Styles/Login.css"
 import { auth, logInWithEmailAndPassword, signInWithGoogle } from "../Firebase/Firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 
-
+// feedback: fw18_0075 - format code properly 
 function LoginPage() {
     const navigate=useNavigate()
     const [email,setEmail]=useState("")

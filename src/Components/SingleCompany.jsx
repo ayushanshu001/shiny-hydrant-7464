@@ -12,6 +12,7 @@ const SingleCompany = () => {
     console.log(data)
     const params=useParams()
     const getCompany = (title) => {
+        // feedback: fp04_239, fw18_0075 and fp01_092 - move this URL to different file, generally different URLs are used based on different envs
         return axios
             .get(`https://chalo-api.herokuapp.com/${title}`)
             .then(res => { setData(res.data) })

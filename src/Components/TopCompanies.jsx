@@ -13,6 +13,8 @@ const TopCompanies = () => {
         </TopCompany>
     )
 }
+
+// feedback: fp04_239 - why do we have this style here?
 const TopCompany=style.div`
     width:100%;
     h1{

@@ -1,6 +1,9 @@
 import React from "react";
 import Styles from "../styles_Avi/Comp_Side.module.css";
 export default function Comp_Side() {
+  
+  // feedback: fp01_092 - can we divide this component? This is too big to handle
+  // You can use loops for same element to show in the view
   return (
     <div>
       <div className={Styles.Side_Avi}>

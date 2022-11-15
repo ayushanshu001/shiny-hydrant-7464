@@ -19,7 +19,8 @@ const RegisterPage=()=>{
     const [name,setName]=useState("")
     const [user, loading, error] = useAuthState(auth);
    
-
+// feedback: fp04_239 and fw18_0075 - you can optimise the code
+    // if (!name || !email || !password || !phone) it works same as below
 
     const register=()=>{
         if(name==="" || email==="" ||password==="" || phone===""){

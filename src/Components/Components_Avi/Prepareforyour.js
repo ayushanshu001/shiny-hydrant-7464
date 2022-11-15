@@ -1,6 +1,10 @@
 import Styles from "../styles_Avi/Prepareforyour.module.css";
 import React from "react";
 export default function Prepareforyour() {
+  
+  // feedback: fp01_092 - big components and it can be divided
+  // You can move static data to constant and JSON file, it will make the component more readable
+ 
   return (
     <div className={Styles.Prepare_Avi}>
       <div className={Styles.Prepare_first}>
@@ -287,7 +291,7 @@ export default function Prepareforyour() {
           />
         </div>
       </div>
-
+{/*eedback: fp01_092 - I see same divs and we can create a dynamic config and pass it to the loop to render them, it will help tp acheive code reusablility*/}
       <div className={Styles.Prepare_third}>
         <h3 className={Styles.interview_h3}>Interview questions by company</h3>
         <div style={{ display: "flex", justifyContent: "center" }}>

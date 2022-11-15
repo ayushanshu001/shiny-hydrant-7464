@@ -2,6 +2,7 @@
 import React from 'react'
 import Styles from '../Components_Avi/styles_Avi/Accelerateyourjob.module.css'
 
+// feedback: fp01_092 - remove comments if the code is not needed
 export default function Accelerateyourjob() {
   return (
     <div>

@@ -8,7 +8,8 @@ import { useNavigate } from "react-router-dom";
 import LoginAuth from './LoginAuth';
 import LogoutAuth from './LogoutAuth';
 
-
+// feedback: fw18_0075 and fp01_092: Try to pass the generic class name
+// try not to use URL directly into the components instead create constant or JSON file
 
 const Navbar = () => {
 

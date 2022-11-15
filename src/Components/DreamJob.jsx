@@ -16,6 +16,7 @@ const DreamJob = () => {
 						alt="search icon"
 					/>
         <input style={{outline:'none',width:'250px',border:'none'}} type='text' placeholder='Enter skills /destination /companies'/> 
+		{/*feedback: fp01_092 - use loops for select and don't use image URL directly into src*/}
         <select required style={{border:"none",outline:'none',color:'grey'}}>
                       <option value="" disabled selected>Select Experience</option>
                       <option value="1">1 year</option>
@@ -30,6 +31,7 @@ const DreamJob = () => {
     <br/>
     <br/>
     <br/>
+		{/*feedback: fp01_092 - don't use image URL directly into src instead pass them to constant files*/}
     <div className={style.logoAyush}>
             <img src='	https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg' alt='Remote Icon'/>
             <span>Remote</span>

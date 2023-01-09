@@ -17,7 +17,7 @@ const Navbar = () => {
     //  console.log(user,loading,error)
 
   return (
-<div style={{display:'flex'}} >
+<div style={{display:'flex',}} >
         <div className={style.navbarAyush} >
         
             <Link to='/'>
@@ -25,8 +25,16 @@ const Navbar = () => {
                 <img style={{width:'150px',height:'25px'}} src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"/>
             </div></Link>
             <div className={style.tagAyush}>
+                <div>
                 <p className={style.tagHoverAyush}>Jobs</p>
-                <p className={style.tagHoverAyush}><Link to='/companies' style={{textDecoration:'none'}}>Companies</Link></p>
+                <div className={style.check}>
+                    <h6>Ayush</h6>
+                    <h6>Ayush</h6>
+                    <h6>Ayush</h6>
+                    <h6>Ayush</h6>
+                </div>
+                </div>
+                <p className={style.tagHoverAyush} ><Link to='/companies' style={{textDecoration:'none'}}>Companies</Link></p>
                 <p className={style.tagHoverAyush}>Services</p>
             </div>
             <div className={style.navbuttonAyush}>

@@ -12,6 +12,7 @@ const Companies = () => {
         <TopCompanies/>
         <FeaturedCompanies/>
         <FeaturedCompaniesPage/>
+        <Footerr/>
     </div>
   )
 }

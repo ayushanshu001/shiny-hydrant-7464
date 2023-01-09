@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../styles_Avi/Comp_Side.module.css";
+import Styles from "../Components_Avi/styles_Avi/Comp_Side.module.css";
 export default function Comp_Side() {
   return (
     <div>
@@ -24,7 +24,6 @@ export default function Comp_Side() {
             Filters
           </h4>
         </div>
-        <hr></hr>
         <div>
           <h3 style={{ textAlign: "left" }}>Company Type</h3>
           <div
@@ -106,7 +105,6 @@ export default function Comp_Side() {
             <label for="Others">Others (1)</label>
             <br></br>
           </div>
-          <hr></hr>
           <h3 style={{ textAlign: "left" }}>Location</h3>
           <input
             style={{
@@ -319,7 +317,6 @@ export default function Comp_Side() {
             <label for="Lucnow">Lucknow (110)</label>
             <br></br>
           </div>
-          <hr></hr>
 
           <h3 style={{ textAlign: "left" }}>Department</h3>
           <input
@@ -479,7 +476,6 @@ export default function Comp_Side() {
             <label for="Insurance">Insurance (144)</label>
             <br></br>
           </div>
-          <hr></hr>
           <h3 style={{ textAlign: "left" }}>Industry</h3>
           <input
             style={{
@@ -630,7 +626,6 @@ export default function Comp_Side() {
             <br></br>
           </div>
         </div>
-        <hr></hr>
         <h3 style={{ textAlign: "left" }}>Experience</h3>
         <button
           style={{
@@ -660,7 +655,6 @@ export default function Comp_Side() {
         >
           Entry Level  (694)
         </button>
-        <hr></hr>
         <h3 style={{ textAlign: "left" }}>Nature of Business</h3>
         <button
           style={{
@@ -702,7 +696,6 @@ export default function Comp_Side() {
         >
           D2C  (9)
         </button>
-        <hr></hr>
         <h3 style={{ textAlign: "left" }}>Job Posting Date</h3>
         <button
           style={{
@@ -730,7 +723,6 @@ export default function Comp_Side() {
         >
            15 Days
         </button>
-        <hr></hr>
       </div>
     </div>
   );

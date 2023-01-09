@@ -1,7 +1,8 @@
+
 .navbarAyush{
-    /* position: fixed;
+     position: fixed;
      top: 0; 
-     z-index: 2000;  */
+     z-index: 2000;  
     height:65px;
     width:100%;
    /* padding-left: 50px; */
@@ -27,14 +28,31 @@
     font-size: medium;
     font-weight:600;
     padding-top: 5px;
+   
+    /* position: fixed; */
+    
 }
+
+
+
 .tagHoverAyush:hover{
     /* position: relative; */
     /* border-bottom: 5px solid tomato; */
     border-bottom: 5px solid tomato;
     color: black;
+    width: fit-content;
 
 }
+.check{
+    visibility: hidden;
+   
+}
+ .tagHoverAyush:hover+.check{
+    visibility: visible;
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+ }
 .navbuttonAyush{
     padding-top: 14px;
     padding-left: 375px;
@@ -105,6 +123,3 @@
         
     }
 } */
-
-
-
